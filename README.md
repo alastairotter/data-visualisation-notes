@@ -6,5 +6,5 @@ A lot of the material here comes from my own need to document things I have done
 
 | # | Content | 
 | - |:-------:| 
-| 1. | [Home](https://github.com/alastairotter/data-journalism-notes) |  
+| 1. | [Home](https://github.com/alastairotter/data-journalism-notes) <!-- .element: style="text-align:left;" -->|  
 | 2. | [Test link](https://github.com/alastairotter/data-journalism-notes/blob/master/content/d3.md) |
