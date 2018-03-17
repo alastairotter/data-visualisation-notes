@@ -6,4 +6,4 @@ A lot of the material here comes from my own need to document things I have done
 
 | # | Content | 
 | - |:-------:| 
-| 1. | Home |  
+| 1. | [Home](https://github.com/alastairotter/data-journalism-notes) |  
