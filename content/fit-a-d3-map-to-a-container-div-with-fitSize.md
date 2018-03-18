@@ -33,7 +33,7 @@ With our projection in place we then create our path generator and draw our map 
       .style("stroke-width", 0.3)
       .attr( "d", geoPath );
 
-And that's it. It's pretty simple to quickly create a map and fit it to an given size. 
+And that's it. It's pretty simple to quickly create a map and fit it to a given size. 
 
 Full example code for the map can be found [here](https://github.com/alastairotter/data-journalism-beginners/tree/master/examples/fit-d3-map-to-container-part-2)
 
