@@ -11,6 +11,6 @@ A lot of the material here comes from my own need to document things I have done
 
 
 
-- #Getting started
-- [Data, mapping and journalism notes](#data-mapping-and-journalism-notes)
+- Getting started
+- [Data, mapping and journalism notes](content/d3.md)
 
