@@ -1,0 +1,81 @@
+
+<html>
+    <head>
+      <title>A D3 map</title>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="sa.js"></script>
+      <style>
+        .map { 
+          width: 500px;
+          height: 300px;
+          border: solid 1px lightgray;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .links { 
+          width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="map"></div>
+      <div class="links">
+        <button onClick="zoom('Limpopo');">Limpopo</button>
+        <button onClick="zoom('Eastern Cape');">Eastern Cape</button>
+      </div>
+
+
+    <script>
+    var width = 500,
+        height = 300;
+    
+    var svg = d3.select( ".map" )
+      .append( "svg" )
+      .attr( "width", width )
+      .attr( "height", height );
+    
+    var projection = d3.geoMercator()
+        .fitSize([width, height], sa);      
+    
+    var geoPath = d3.geoPath()
+        .projection( projection );
+
+    
+    var map = svg
+      .selectAll("path")
+      .data( sa.features )
+      .enter()
+      .append("path")
+      .attr( "fill", "#ccc" )
+      .style("stroke", "#fff")
+      .style("stroke-width", 0.3)
+      .attr("id", function (d) { 
+        // console.log(d); 
+        //   return d.id;
+        })
+      .attr( "d", geoPath )
+      // .on("mouseover", function (d) { 
+      //   console.log(d.id);
+      // });
+
+    function zoom(province) { 
+      
+      var selection = sa.features.filter(function (d) { return d.properties.ID == province; })[0];
+      
+      projection.fitSize([width, height], selection);
+
+      map
+        .transition()
+        .duration(2000)
+        .attr("d", geoPath)
+        .style("fill", function () { 
+          // if(d.id === province) { return "crimson"; }
+          // else { return "#ccc"; }
+        })
+          }
+
+      </script>
+    </body>
+    </html>
