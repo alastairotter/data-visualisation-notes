@@ -2,7 +2,7 @@
 
 # Fit a D3 map to a container div
 
-***Note:** There is now an even easier way to achieve this when using D3v4's projection.fitSize feature. You can find notes on using fitSize [here](content/fit-a-d3-map-to-a-container-div-with-fitSize.md).*
+***Note:** There is now an even easier way to achieve this when using D3v4's projection.fitSize feature. You can find notes on using fitSize [here](fit-a-d3-map-to-a-container-div-with-fitSize.md).*
 
 Drawing maps in D3 can be both easy and hard. Easy, because drawing a map really only requires a geojson/topojson file and a few lines of code. For example, once you've created your SVG container and imported your geojson/topojson data, making a map is as easy as this: 
   
