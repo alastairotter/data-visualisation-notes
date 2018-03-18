@@ -13,7 +13,7 @@ Drawing maps in D3 can be both easy and hard. Easy, because drawing a map really
      var geoPath = d3.geoPath()
         .projection( projection );
 
-In these few lines you set up your projection and then make your path creator. Obviously there are many more options available when doing these two steps but we've skipped those here. Once you set up your projection and your path creator, you can draw the map: 
+In these few lines you set up your projection and then make your path creator. Obviously there are many more options available when doing these two steps but we've skipped those here. Once you set up your projection and your path creator, you can draw the map. **NOTE:** For this example we've used the .datum( data ) function and not the .data( data ) one. There is an [important distinction between these two](d3-data()-versus-d3-datum().md) which is worth trying to understand.  
 
      svg.append("path")
         .datum( data )
