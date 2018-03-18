@@ -21,7 +21,7 @@ First we create our projection:
 
 The important thing here is that instead of have scale and translate values we have the .fitSize function. fitSize takes two values: first the size of our container and second, the geojson object for our map (in this case it is "sa").
 
-With our projection in place we then create our path generator and draw our map to our SVG: 
+With our projection in place we then create our path generator and draw our map to our SVG. **NOTE:** For this example we've used the .datum( data ) function and not the .data( data ) one. There is an [important distinction between these two](d3-data()-versus-d3-datum().md) which is worth trying to understand. 
 
     var geoPath = d3.geoPath()
         .projection( projection );
