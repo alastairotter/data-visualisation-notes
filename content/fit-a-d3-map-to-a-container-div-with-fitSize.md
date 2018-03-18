@@ -1,4 +1,4 @@
-[Back to contents](http://github.com/alastairotter/data-journalism-notes)
+[<< Back to contents](http://github.com/alastairotter/data-journalism-notes)
 
 # Fit a D3 map to a container div using fitSize
 
