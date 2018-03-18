@@ -2,7 +2,7 @@
 
 # Fit a D3 map to a container div using fitSize
 
-Scaling and translating a D3 map to fit perfectly inside a container div used to be relatively difficult. In a previous [note](content/fit-a-d3-map-to-a-container-div.md) I used an example of this in which we created an unscaled and translated projection, calculated the bounds of that path created and then calculated the new scale and translate values needed to fit it in the div we chose. 
+Scaling and translating a D3 map to fit perfectly inside a container div used to be relatively difficult. In a previous [note](fit-a-d3-map-to-a-container-div.md) I used an example of this in which we created an unscaled and translated projection, calculated the bounds of that path created and then calculated the new scale and translate values needed to fit it in the div we chose. 
 
 It's not all that difficult but there is an easier way. In version 4 of D3 there is a new projection function called [fitSize](https://github.com/d3/d3-geo#projection_fitSize) which does exactly what it suggests: it fits a given geojson object to a give div container size.
 
