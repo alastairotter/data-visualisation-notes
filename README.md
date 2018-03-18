@@ -9,7 +9,8 @@ A lot of the material here comes from my own need to document things I have done
 | 1 | [**Home**](https://github.com/alastairotter/data-journalism-notes) |
 | 2 | **Getting started** |
 | 3 | **D3 and maps** |
-|  | [Fit a D3 map to a container div (part 1)](content/fit-a-d3-map-to-a-container-div.md) |  
+|  | [Fit a D3 map to a container div](content/fit-a-d3-map-to-a-container-div.md) |  
+|  | [Fit a D3 map to a container div using fitSize](content/fit-a-d3-map-to-a-container-div-with-fitSize.md)
 
 
 
