@@ -20,7 +20,7 @@ In these few lines you set up your projection and then make your path creator. O
 
 The result is a crude but working map. Something like this: 
 
-![](https://github.com/alastairotter/data-journalism-beginners/blob/master/images/samap.png)
+![](https://github.com/alastairotter/data-journalism-notes/blob/master/images/samap.png)
 
 The hard part of D3 maps now appears, because there's a very good chance your map doesn't look anything like this, or it may not even appear on your screen. The problem is that you still need to scale the map to fit your box and then centre it (or otherwise align it) in your container. 
 
