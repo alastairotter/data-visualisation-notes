@@ -12,5 +12,5 @@ A lot of the material here comes from my own need to document things I have done
 
 
 - Getting started
-- [Fit a D3 map to a container div](https://github.com/alastairotter/data-journalism-notes/blob/master/content/fit-a-d3-map-to-a-container-div.md)
+- [Fit a D3 map to a container div](content/fit-a-d3-map-to-a-container-div)
 
