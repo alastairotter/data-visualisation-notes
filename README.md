@@ -12,5 +12,5 @@ A lot of the material here comes from my own need to document things I have done
 
 
 - Getting started
-- [Data, mapping and journalism notes](content/d3.md)
+- [Data, mapping and journalism notes](content/d3-map-fit-to-container.md)
 
