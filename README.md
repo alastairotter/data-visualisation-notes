@@ -9,3 +9,8 @@ A lot of the material here comes from my own need to document things I have done
 | 1 | [Home](https://github.com/alastairotter/data-journalism-notes)|  
 | 2 | [Test link](content/d3.md) |
 
+
+
+- #Getting started
+- [Data, mapping and journalism notes](#data-mapping-and-journalism-notes)
+
