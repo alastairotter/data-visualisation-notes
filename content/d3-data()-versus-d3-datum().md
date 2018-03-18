@@ -57,3 +57,9 @@ The result is a map that looks pretty much the same as our previous one except, 
 
 So effectively using .datum() for our binding created a single path with the data for the entire map. Using .data() on the other hand created multiple paths, each with one feature bound to it. 
 
+## When to use data() and when to use datum()
+
+There's no definitive answer to this though there may be some scenarios in which you will want to use one over the other. For example, if you're creating an essentially static image (ie. you don't need to do updates() and exits()) which will be created once and then remain unchanged, you could use datum(). On the other hand, if you're going to be adding a a series of circles that need to be changed every few seconds/minutes or when data updates, you'll need to use data() to get access to the enter, update and exit methods. 
+
+
+
