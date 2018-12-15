@@ -1,0 +1,56 @@
+
+<html>
+    <head>
+      <title>A D3 map</title>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="sa.js"></script>
+      <style>
+        .map { 
+          width: 500px;
+          height: 300px;
+          border: solid 1px lightgray;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .links { 
+          width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="map"></div>
+      
+
+
+    <script>
+    var width = 500,
+        height = 300;
+    
+    var svg = d3.select( ".map" )
+      .append( "svg" )
+      .attr( "width", width )
+      .attr( "height", height );
+
+    var data = [3, 5, 6, 2, 1];
+
+    for(var x = 0; x < 5; x++) { 
+      svg.append("circle")
+        .attr("cx", 10)
+        .attr("cy", 10)
+        .attr("r", 10)
+    }
+
+    // bind all data to each circle
+    d3.selectAll("circle")
+      .datum(data)
+      .attr("r", function (d) { 
+        return d[1];
+      })
+      .style("fill", "crimson")
+
+
+      </script>
+    </body>
+    </html>
