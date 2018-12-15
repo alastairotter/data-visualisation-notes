@@ -11,7 +11,7 @@ A lot of the material here comes from my own need to document things I have done
 |  | [Fit a D3 map to a container div using fitSize](content/fit-a-d3-map-to-a-container-div-with-fitSize.md) |
 |  | [The difference between D3's .data() and .datum() methods](content/d3-data()-versus-d3-datum().md) |
 | 2 | **Trigonometry for design** |
-|  | [Basic circle and angle functions] (content/basic-cicle-and-angle-functions.md) |
+|  | [Basic circle and angle functions](content/basic-circle-and-angle-functions.md) |
 
 
 
