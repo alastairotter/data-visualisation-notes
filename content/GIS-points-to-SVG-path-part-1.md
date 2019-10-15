@@ -31,6 +31,8 @@ To convert first to .geojson format I opened QGIS and imported the .csv file usi
 
 Make sure your .csv has a header row before you import. During the import select which column is the "x" and which the "y". Follow any other hints. 
 
+The result (in QGIS) is something like this: 
+
 ![](../images/route.png)
 
 Once it's imported, right click on the layer you imported and select Export->Save Features As and run through the various options. Save it out to a .geojson file. That file now looks like: 
