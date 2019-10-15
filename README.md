@@ -13,7 +13,7 @@ A lot of the material here comes from my own need to document things I have done
 | 2    | **Trigonometry for design**                                                                              |
 |      | [Basic circle and angle functions](content/basic-circle-and-angle-functions.md)                          |
 | 3    | **Geographic data**                                                                                      |
-|      | [Turn a collection of GIS points into an SVG path (part 1)](content/GIS-points-to-SVG-path-(part 1).md)  |
+|      | [Turn a collection of GIS points into an SVG path (part 1)](content/GIS-points-to-SVG-path-part-1.md)    |
 
 
 
